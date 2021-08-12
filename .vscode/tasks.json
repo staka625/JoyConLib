@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "&{MSBuild}-debug",
+            "type": "process",
+            "command": "vsdevcmd-debug.bat",
+            "args": [
+                "${workspaceFolderBasename}"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "&{MSBuild}-release",
+            "type": "process",
+            "command": "vsdevcmd-release.bat",
+            "args": [
+                "${workspaceFolderBasename}"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+    ]
+}
