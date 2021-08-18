@@ -1,6 +1,7 @@
 {
     "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, AccessModifierOffset: -2, AlignAfterOpenBracket: true, AlignConsecutiveAssignments: true, AlignTrailingComments: true, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: None, AllowShortCaseLabelsOnASingleLine: false, AlwaysBreakBeforeMultilineStrings: false, AlwaysBreakTemplateDeclarations: false, BinPackArguments: false, BinPackParameters: false, BreakBeforeBinaryOperators: NonAssignment, BreakBeforeBraces: Attach, BreakConstructorInitializersBeforeComma: false, BreakConstructorInitializers: BeforeComma, ColumnLimit: 0, IndentCaseLabels: true, IndentWidth: 4, MaxEmptyLinesToKeep: 2, NamespaceIndentation: All, PointerAlignment: Left, SortIncludes: false, SpaceInEmptyParentheses: false, SpaceBeforeParens: Never, Standard: Cpp11, TabWidth: 4, UseTab: ForIndentation,}",
     "files.associations": {
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "thread": "cpp"
     }
 }
